@@ -71,7 +71,7 @@ class ServiceSummaryCLI extends \Symfony\Component\Console\Command\Command
         $reader->setHeaderOffset(0);
         $services = $reader->getRecords();
 
-        // Initialize array to store service counts by country
+        // Initialize array to store number of services by country
         $serviceCountsByCountry = [];
 
         // Iterate through each service record
